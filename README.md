@@ -34,7 +34,7 @@ data = fetch_dataset(name="h20")
 
 ### fuel_consumption
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-python/master/data/consumos-combustibles-mensual.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/consumos-combustibles-mensual.csv
 + sep: ','
 + index_col: Fecha
 + date_format: %Y-%m-%d
@@ -54,7 +54,7 @@ data = fetch_dataset(name="h20")
 
 ### air_quality_valencia
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-python/master/data/air_quality_valencia.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/air_quality_valencia.csv
 + sep: ','
 + index_col: datetime
 + date_format: date_format: %Y-%m-%d %H:%M:%S
@@ -64,7 +64,7 @@ data = fetch_dataset(name="h20")
 
 ### web_visits
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-python/master/data/visitas_por_dia_web_cienciadedatos.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/visitas_por_dia_web_cienciadedatos.csv
 + sep: ","
 + index_col: date
 + date_format: %Y-%m-%d
@@ -74,7 +74,7 @@ data = fetch_dataset(name="h20")
 
 ### bike_sharing
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-python/master/data/bike_sharing_dataset_clean.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/bike_sharing_dataset_clean.csv
 + sep: ','
 + index_col: date_time
 + date_format: %Y-%m-%d %H:%M:%S
@@ -84,7 +84,7 @@ data = fetch_dataset(name="h20")
 
 ### australia_tourism
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-python/master/data/australia_tourism.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/australia_tourism.csv
 + sep: ','
 + index_col: date_time
 + date_format: %Y-%m-%d
