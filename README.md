@@ -4,7 +4,7 @@ This repository contains datasets used in the skforecast library. It also contai
 
 All datasets included have a sort description as well as the original source. They can be downloaded directly from the repository or by using the `fetch_dataset()` function from the skforecast library.
 
-```
+```python
 from skforecast.datasets import fetch_dataset()
 data = fetch_dataset(name="h20")
 ```
