@@ -13,7 +13,7 @@ data = fetch_dataset(name="h20")
 
 ### h2o
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast/master/data/h2o.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/h2o.csv
 + sep: ','
 + index_col: fecha
 + date_format: %Y-%m-%d
@@ -23,12 +23,12 @@ data = fetch_dataset(name="h20")
 
 ### h2o_exog
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast/master/data/h2o_exog.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/h2o_exog.csv
 + sep: ','
 + index_col: fecha
 + date_format: %Y-%m-%d
 + freq: MS
-+ description: Monthly expenditure ($AUD) on corticosteroid drugs that the Australian health system had between 1991 and 2008. Two aditional variables (exog_1, exog_2) are simulated.
++ description: Monthly expenditure ($AUD) on corticosteroid drugs that the Australian health system had between 1991 and 2008. Two additional variables (exog_1, exog_2) are simulated.
 + source: Hyndman R (2023). fpp3: Data for "Forecasting: Principles and Practice" (3rd Edition). http://pkg.robjhyndman.com/fpp3package/, https://github.com/robjhyndman/fpp3package, http://OTexts.com/fpp3.
 
 
@@ -44,7 +44,7 @@ data = fetch_dataset(name="h20")
 
 ### items_sales
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast/master/data/simulated_items_sales.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/simulated_items_sales.csv
 + sep: ','
 + index_col: date
 + date_format: %Y-%m-%d
@@ -62,7 +62,7 @@ data = fetch_dataset(name="h20")
 + description: Hourly measures of several air quimical pollutant (pm2.5, co, no, no2, pm10, nox, o3, so2) at Valencia city.
 + source: Red de Vigilancia y Control de la Contaminación Atmosférica, 46250054-València - Centre, https://mediambient.gva.es/es/web/calidad-ambiental/datos-historicos
 
-### web_visits
+### website_visits
 
 + url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/visitas_por_dia_web_cienciadedatos.csv
 + sep: ","
@@ -89,12 +89,12 @@ data = fetch_dataset(name="h20")
 + index_col: date_time
 + date_format: %Y-%m-%d
 + freq: Q
-+ description: A dataset containing the quarterly overnight trips (in thousands) from 1998 Q1 to 2016 Q4 across Australia. The tourism regions are formed through the aggregation of Statistical Local Areas (SLAs) which are defined by the various State and Territory tourism authorities according to their research and marketing needs. 
++ description: Quarterly overnight trips (in thousands) from 1998 Q1 to 2016 Q4 across Australia. The tourism regions are formed through the aggregation of Statistical Local Areas (SLAs) which are defined by the various State and Territory tourism authorities according to their research and marketing needs. 
 + source: Wang, E, D Cook, and RJ Hyndman (2020). A new tidy data structure to support exploration and modeling of temporal data, Journal of Computational and Graphical Statistics, 29:3, 466-478, doi:10.1080/10618600.2019.1695624.
 
 ### uk_daily_flights
 
-+ url: 
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/uk_daily_flights.csv
 + sep: ','
 + index_col: Date
 + date_format: %Y-%m-%d
@@ -105,7 +105,7 @@ data = fetch_dataset(name="h20")
 
 ### wikipedia_visits
 
-+ url: 
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/wikipedia_visits.csv
 + sep: ','
 + index_col: date
 + date_format: %Y-%m-%d
@@ -113,31 +113,32 @@ data = fetch_dataset(name="h20")
 + description: Log daily page views for the Wikipedia page for Peyton Manning. Scraped data using the Wikipediatrend package in R.
 + source: https://github.com/facebook/prophet/blob/main/examples/example_wp_log_peyton_manning.csv
 
+
 ### vic_electricity
 
-+ url: 
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/vic_electricity.csv
 + sep: ','
 + index_col: Time
 + date_format: %Y-%m-%dT%H:%M:%SZ
 + freq: 30min
 + description: Half-hourly electricity demand for Victoria, Australia
-+ source: O'Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022). tsibbledata: Diverse Datasets for 'tsibble'. https://tsibbledata.tidyverts.org/, https://github.com/tidyverts/tsibbledata/. https://tsibbledata.tidyverts.org/reference/vic_elec.html
++ source: O'Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022).tsibbledata: Diverse Datasets for 'tsibble'. https://tsibbledata.tidyverts.org/, https://github.com/tidyverts/tsibbledata/. https://tsibbledata.tidyverts.org/reference/vic_elec.html
 
 
 ### store_item_demand
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-ython/master/data/bike_sharing_dataset_clean.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-ython/main/data/bike_sharing_dataset_clean.csv
 + sep: ','
 + index_col: date_time,
 + date_format: %Y-%m-%d %H:%M:%S
 + freq: H
-+ description: This dataset contains 913,000 sales transactions from 2013-01-01to 2017-12-31 for 50 products (SKU) in 10 stores.
++ description: This dataset contains 913,000 sales transactions from 2013-01-01 to 2017-12-31 for 50 products (SKU) in 10 stores.
 + source: inversion. (2018). Store Item Demand Forecasting Challenge. Kaggle. https://kaggle.com/competitions/demand-forecasting-kernels-only
 
 
 ### air_pollution
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast/master/data/guangyuan_air_pollution.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/guangyuan_air_pollution.csv
 + sep: ','
 + index_col: date
 + date_format: %Y-%m-%d
