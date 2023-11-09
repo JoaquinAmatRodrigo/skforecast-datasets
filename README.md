@@ -125,13 +125,13 @@ data = fetch_dataset(name="h20")
 + source: O'Hara-Wild M, Hyndman R, Wang E, Godahewa R (2022).tsibbledata: Diverse Datasets for 'tsibble'. https://tsibbledata.tidyverts.org/, https://github.com/tidyverts/tsibbledata/. https://tsibbledata.tidyverts.org/reference/vic_elec.html
 
 
-### store_item_demand
+### store_sales
 
 + url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-ython/main/data/bike_sharing_dataset_clean.csv
 + sep: ','
-+ index_col: date_time,
-+ date_format: %Y-%m-%d %H:%M:%S
-+ freq: H
++ index_col: date,
++ date_format: %Y-%m-%d
++ freq: D
 + description: This dataset contains 913,000 sales transactions from 2013-01-01 to 2017-12-31 for 50 products (SKU) in 10 stores.
 + source: inversion. (2018). Store Item Demand Forecasting Challenge. Kaggle. https://kaggle.com/competitions/demand-forecasting-kernels-only
 
