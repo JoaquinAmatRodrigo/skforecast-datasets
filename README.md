@@ -84,7 +84,7 @@ data = fetch_dataset(name="h20")
 
 ### bike_sharing_extended_features
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/bike_sharing_dataset_extended_features.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/bike_sharing_extended_features.csv
 + sep: ','
 + index_col: date_time
 + date_format: %Y-%m-%d %H:%M:%S
