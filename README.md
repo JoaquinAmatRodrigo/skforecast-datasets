@@ -39,7 +39,7 @@ data = fetch_dataset(name="h20")
 + index_col: Fecha
 + date_format: %Y-%m-%d
 + freq: MS,
-+ description: Monthly fuel consumption in Spain from 1969-01-01 to 2022-08-01.
++ description: Monthly fuel consumption (tons) in Spain from 1969-01-01 to 2022-08-01.
 + source: Obtained from Corporación de Reservas Estratégicas de Productos Petrolíferos y Corporación de Derecho Público tutelada por el Ministerio para la Transición Ecológica y el Reto Demográfico. https://www.cores.es/es/estadisticas
 
 ### items_sales
