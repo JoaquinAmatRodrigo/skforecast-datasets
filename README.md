@@ -137,13 +137,43 @@ data = fetch_dataset(name="h20")
 
 ### store_sales
 
-+ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/Estadistica-machine-learning-ython/main/data/bike_sharing_dataset_clean.csv
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/store_sales.csv
 + sep: ','
 + index_col: date,
 + date_format: %Y-%m-%d
 + freq: D
 + description: This dataset contains 913,000 sales transactions from 2013-01-01 to 2017-12-31 for 50 products (SKU) in 10 stores.
 + source: inversion. (2018). Store Item Demand Forecasting Challenge. Kaggle. https://kaggle.com/competitions/demand-forecasting-kernels-only
+
+### bicimad
+
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/bicimad_users.csv
++ sep: ','
++ index_col: date,
++ date_format: %Y-%m-%d
++ freq: D
++ description: This dataset contains the daily users of the bicycle rental service (BiciMad) in the city of Madrid (Spain) from 2014-06-23 to 2022-09-30.
++ source: Portal de datos abiertos del Ayuntamiento de Madrid https://datos.madrid.es/portal/site/egob'
+
+### m4_hourly
+
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/m4_hourly.parquet
++ sep: 
++ index_col: start_timestamp,
++ timestamp: %Y-%m-%d %H:%M:%S
++ freq: H
++ description: Time series with hourly frequency from the M4 competition.
++ source: Monash Time Series Forecasting Repository  (https://zenodo.org/communities/forecasting) Godahewa, R., Bergmeir, C., Webb, G. I., Hyndman, R. J., & Montero-Manso, P. (2021). Monash Time Series Forecasting Archive. In Neural Information Processing Systems Track on Datasets and Benchmarks.
+
+### m4_daily
+
++ url: https://raw.githubusercontent.com/JoaquinAmatRodrigo/skforecast-datasets/main/data/m4_daily.parquet
++ sep: 
++ index_col: start_timestamp,
++ timestamp: %Y-%m-%d %H:%M:%S
++ freq: H
++ description: Time series with daily frequency from the M4 competition.
++ source: Monash Time Series Forecasting Repository  (https://zenodo.org/communities/forecasting) Godahewa, R., Bergmeir, C., Webb, G. I., Hyndman, R. J., & Montero-Manso, P. (2021). Monash Time Series Forecasting Archive. In Neural Information Processing Systems Track on Datasets and Benchmarks.
 
 
 ### air_pollution
